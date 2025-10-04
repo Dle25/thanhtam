@@ -93,7 +93,7 @@ a {
   text-align: center;
 }
 .title {
-  margin-bottom: 40px;
+  margin: 0 auto 40px auto;
   width: 600px;
   height: 80px;
   background: #E2E2E2;
@@ -119,8 +119,8 @@ a {
 }
 
 .item {
-  width: 380px;
   height: 420px;
+  width: calc((100% - 60px) / 3 );
   background: #E2E2E2;
   border-radius: 8px;
   display: flex;
@@ -143,8 +143,8 @@ a {
   flex-wrap: wrap;
 }
 .item1 {
-  width: 216px;
   height: 300px;
+  width: calc((100% - 120px) / 5);
   background: #E2E2E2;
   border-radius: 8px;
   display: flex;
@@ -164,8 +164,8 @@ a {
   flex-wrap: wrap;
 }
 .item2 {
-  width: 277.5px;
   height: 300px;
+  width: calc((100% - 90px) / 4);
   background: #E2E2E2;
   border-radius: 8px;
   display: flex;
