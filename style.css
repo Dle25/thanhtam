@@ -110,12 +110,12 @@ a {
   font-size: 20px;
   color: #333;
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-content: center;
+.bodyhero3 {
+  display: flex;
   gap: 30px;
-  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .item {
